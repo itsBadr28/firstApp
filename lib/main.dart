@@ -11,13 +11,15 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('My Firstt App'),
+          title: const Text('مسافر'),
           centerTitle: true,
+          backgroundColor: Colors.red,
         ),
-        body: const Center(
-          child: Image(
-            image: AssetImage('assets/images/tr.jpg'),
-          ),
+        body:  Container(
+          padding: const EdgeInsets.fromLTRB(10, 20, 30, 40),
+          margin: const EdgeInsets.all(10),
+          color: Colors.grey[300],
+          child: const Text('hello'),
 
         ),
         floatingActionButton: FloatingActionButton(
